@@ -378,7 +378,7 @@ main() {
     # get server ip.
     [[ ! $ip ]] && {
         msg err "获取服务器 IP 失败."
-        exit_and_del_tmpdir
+        # exit_and_del_tmpdir
     }
 
     # create sh dir...
